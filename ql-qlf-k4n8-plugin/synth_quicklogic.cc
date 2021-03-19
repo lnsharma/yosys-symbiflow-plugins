@@ -157,6 +157,7 @@ struct SynthQuickLogicPass : public ScriptPass {
         }
 
         if (check_label("prepare")) {
+            run("ql_inout");
             run("proc");
             run("flatten");
             run("opt_expr");
