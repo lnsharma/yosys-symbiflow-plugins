@@ -1,5 +1,5 @@
 NAME = ql-qlf
-SOURCES = synth_quicklogic.cc
+SOURCES = synth_quicklogic.cc passes/ql_inout.cc
 include ../Makefile_plugin.common
 
 COMMON		= common
